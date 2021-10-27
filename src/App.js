@@ -1,23 +1,30 @@
 import logo from './logo.svg';
 import './App.css';
+import First from './First'
+import FirstFunc from './FirstFunc'
+import Locations from './Locations'
+import ComponentLifeCycle from './ComponentLifeCycle'
+import EventHandles from './EventHandles'
+import EventBinding from './Eventbinding';
+import FormValidations from './FormValidations'
+import Button from './Button';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <First />
+      <FirstFunc
+        name="React.js"
+        platform="FE"
+        Trainer="raja"
+        image="https://vuejs.org/images/logo.svg"
+      /> */}
+      <Locations />
+      <ComponentLifeCycle />
+      <EventHandles />
+      <EventBinding />
+      <FormValidations />
+      <Button />
     </div>
   );
 }

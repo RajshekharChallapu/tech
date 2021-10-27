@@ -1,0 +1,13 @@
+.course{
+  width: 250px;
+  height: 250px;
+  padding-top: 25px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 9px 2px black;
+  margin-left: 20px;
+}
+
+img{
+  max-width: 45%;
+  height: 80%;
+}
